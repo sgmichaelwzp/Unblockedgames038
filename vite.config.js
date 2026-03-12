@@ -9,8 +9,12 @@ const __dirname = path.dirname(__filename);
 
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
+  // Set the base to your repository name if deploying to GitHub Pages
+  // e.g., '/unblocked-games/'
+  const base = process.env.NODE_ENV === 'production' ? './' : '/';
+
   return {
-    base: './',
+    base: base,
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
