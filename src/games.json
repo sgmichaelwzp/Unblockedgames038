@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "thumbnail": "https://picsum.photos/seed/2048/400/300",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle"
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "thumbnail": "https://picsum.photos/seed/tetris/400/300",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Classic"
+  },
+  {
+    "id": "flappy-bird",
+    "title": "Flappy Bird Clone",
+    "thumbnail": "https://picsum.photos/seed/bird/400/300",
+    "iframeUrl": "https://flappybird.io/",
+    "category": "Arcade"
+  },
+  {
+    "id": "snake",
+    "title": "Snake",
+    "thumbnail": "https://picsum.photos/seed/snake/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Classic"
+  },
+  {
+    "id": "pacman",
+    "title": "Pac-Man",
+    "thumbnail": "https://picsum.photos/seed/pacman/400/300",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Classic"
+  },
+  {
+    "id": "dino",
+    "title": "Chrome Dino",
+    "thumbnail": "https://picsum.photos/seed/dino/400/300",
+    "iframeUrl": "https://chromedino.com/",
+    "category": "Arcade"
+  }
+]
